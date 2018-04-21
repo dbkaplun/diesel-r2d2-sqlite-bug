@@ -1,0 +1,9 @@
+[package]
+name = "diesel-r2d2-sqlite-bug"
+version = "0.1.0"
+authors = ["Dan Kaplun <dbkaplun@gmail.com>"]
+
+[dependencies]
+diesel = { version = "1.2.0", features = ["r2d2", "sqlite"] }
+diesel_migrations = "1.2.0"
+rayon = "1.0"
